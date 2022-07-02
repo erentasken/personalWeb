@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
 .first{
   position: relative;
-  background-image: url('/home/eren/Desktop/PersonalWeb/bg.png');
+  background-image: url('img/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,21 +17,23 @@
   mix-blend-mode: difference;
   font-family: 'Amatic SC', cursive;
   color:#FFC54D;
-  font-size:100px;
-  position: absolute;
+  font-size:50px;
+  position:relative;
+  text-align: center;
   top:35%;
-  left:50%;
-  transform: translate(-50%);
+  /*left:50%;
+  transform: translate(-50%);*/
 }
 .init{
   mix-blend-mode: difference;
   font-family: 'Amatic SC', cursive;
   color:#FFC54D;
-  font-size:200px;
-  position: absolute;
-  top:20%;
-  left:50%;
-  transform: translate(-50%);
+  font-size:100px;
+  text-align: center;
+  position:relative;
+  top:25%;
+  /*left:50%;
+  transform: translate(-50%);*/
 }
 *{
   margin: 0;
