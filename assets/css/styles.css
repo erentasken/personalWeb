@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
 table{
-  mix-blend-mode: difference;
+  mix-blend-mode: ;
   font-family: 'Amatic SC', cursive;
   color:#FFC54D;
+  width: 80rem;
   text-align: center;
   top:15%;
   position:absolute;
   left:50%;
   transform: translate(-50%);
+}
+th{
+  background-color: #322c2c;
+  border-radius: 1rem;
 }
 html { 
   background: url(../img/bg.png) no-repeat center center fixed; 
@@ -28,21 +33,18 @@ div{
   margin:0 auto;
   border-radius: 1rem;
   background-color: #322c2c;
-  opacity: 0.8;
   margin-top: 0.2rem;
 }
-.division{
+#horizontal-list{
+  display:inline;
+}
+p,ul{
   padding-right: 1.7rem;
   display:table;
   margin:0 auto;
   border-radius: 1rem;
   background-color: #322c2c;
-  opacity: 0.8;
 }
-#horizontal-list{
-  display:inline;
-}
-
 .empty{
  list-style-type: none;
 }
