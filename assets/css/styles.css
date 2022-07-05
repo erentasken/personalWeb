@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+table{
+  mix-blend-mode: difference;
+  font-family: 'Amatic SC', cursive;
+  color:#FFC54D;
+  text-align: center;
+  top:15%;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%);
+}
+html { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* LAYOUT PART ENDED */
+div{
+  font-size: 3rem;
+  padding-right:1rem;
+}
+.squared{
+  padding-right: 3rem;
+  display:table;
+  margin:0 auto;
+  border-radius: 1rem;
+  background-color: #322c2c;
+  opacity: 0.8;
+  margin-top: 0.2rem;
+}
+.division{
+  padding-right: 1.7rem;
+  display:table;
+  margin:0 auto;
+  border-radius: 1rem;
+  background-color: #322c2c;
+  opacity: 0.8;
+}
+#horizontal-list{
+  display:inline;
+}
+
+.empty{
+ list-style-type: none;
+}
+i{
+  color:#FFC54D;
+}
+i:hover{
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  color:gold ;
+}
